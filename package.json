@@ -8,11 +8,11 @@
     "react-scripts": "1.1.0"
   },
   "homepage": "https://dhrubesh.github.io/React_boilerplate",
-  "deploy" : "npm run build&&gh-pages -d build",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy" : "npm run build&&gh-pages -d build"
   }
 }
